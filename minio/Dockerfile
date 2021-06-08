@@ -4,6 +4,4 @@ ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 VOLUME ["/data"]
 
-EXPOSE 9000
-
 CMD ["minio"]
