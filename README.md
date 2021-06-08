@@ -13,9 +13,9 @@ heroku create
 heroku container:push web
 heroku container:release web
 heroku open
+```
 
 ## Usage
-visit deployed webpage
+
 credentials:
 minioadmin:minioadmin
-```
