@@ -11,7 +11,7 @@ RUN update-ca-certificates
 RUN wget https://dl.min.io/server/minio/release/linux-amd64/minio
 RUN chmod +x minio
 
-CMD /bin/bash -c "envsubst '\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf" && nginx -g 'daemon off;' && ./minio server /data
+CMD /bin/sh -c "envsubst '\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf" && nginx -g 'daemon off;' && ./minio server /data
 
 
 
