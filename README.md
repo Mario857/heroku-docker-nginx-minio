@@ -17,5 +17,9 @@ heroku open
 
 ## Usage
 
-credentials:
+Default credentials:
+```
 minioadmin:minioadmin
+
+Storage resets on each deploy :)
+```
