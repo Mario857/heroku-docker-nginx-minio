@@ -1,4 +1,4 @@
-# heroku-docker-MinIO
+# Heroku-Docker-Nginx-MinIO
 
 https://github.com/minio/minio
 
