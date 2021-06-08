@@ -1,8 +1,8 @@
 {
-  "name": "heroku-docker-nginx-example",
-  "description": "A barebones nginx installation using Docker",
+  "name": "heroku-docker-nginx-menio",
+  "description": "MinIO for heroku",
   "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
-  "keywords": ["nginx", "docker", "proxy"],
+  "keywords": ["nginx", "docker", "proxy", "minIO"],
   "stack": "container"
 }

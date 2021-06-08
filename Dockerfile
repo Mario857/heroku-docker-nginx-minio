@@ -2,7 +2,6 @@ FROM nginx:1.20.1-alpine
 
 COPY default.conf.template /etc/nginx/conf.d/default.conf.template
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY static-html /usr/share/nginx/html
 RUN apk update
 RUN apk add ca-certificates wget
 RUN update-ca-certificates
