@@ -1,0 +1,13 @@
+server {
+  listen $PORT default_server;
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+  }
+
+  location /api {
+    rewrite /api/(.*) /$1 break;
+    proxy_pass http://worker:9000/;
+  }
+}
